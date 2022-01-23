@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/705h-S/Auto-Markdown-Fill/issues"
   },
-  "homepage": "https://github.com/705h-S/Auto-Markdown-Fill#readme"
+  "homepage": "https://github.com/705h-S/Auto-Markdown-Fill#readme",
+  "dependencies": {
+    "inquirer": "^8.2.0"
+  }
 }

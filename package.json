@@ -1,0 +1,19 @@
+{
+  "name": "auto-markdown-fill",
+  "version": "1.0.0",
+  "description": "Tired of making your own Read.MD? Run node index.js and simply answer the questions. At the end of the questions a read.md will be generated with your answers.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/705h-S/Auto-Markdown-Fill.git"
+  },
+  "author": "Joshua Meza",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/705h-S/Auto-Markdown-Fill/issues"
+  },
+  "homepage": "https://github.com/705h-S/Auto-Markdown-Fill#readme"
+}

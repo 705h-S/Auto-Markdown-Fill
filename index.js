@@ -9,22 +9,19 @@ const questions = [
     {
         type: "input",
         name: "title",
-        message: "What is the title of your project?",
-        default: "Auto Markdown Generator"
+        message: "What is the title of your project?"
     },
 
     {
         type: "input",
         name: "description",
-        message: "Whats your project? What does it do?",
-        default: "Using node and inquirer it'll generate a README.md based off the user's inputs. This will save time on creating readme so that developer can focus more on the actual project"
+        message: "Whats your project? What does it do?"
     },
 
     {
         type: "input",
         name: "install",
-        message: "What are the steps required to install your project?",
-        default: "Once you have the json package simply open your terminal and run the command npm install"
+        message: "What are the steps required to install your project?"
     },
 
     {
@@ -38,29 +35,25 @@ const questions = [
     {
         type: "input",
         name: "usage",
-        message: "How do you use your project?",
-        default: " After a successfull install with your terminal still open run the command node index.js . This will trigger inquirer and a prompt of questions will appear. Your automatic base readme.md will them be genertated"
+        message: "How do you use your project?"
     },
 
     {
         type: "input",
         name: "colab",
-        message: "What are the names of the Contributors?",
-        default: "Joshua Meza"
+        message: "What are the names of the Contributors?"
     },
 
     {
         type: "input",
         name: "GitHub",
-        message: "Enter your GitHub user name",
-        default: "705h-S"
+        message: "Enter your GitHub user name"
     },
 
     {
         type:"input",
         name: "email",
-        message: "what is your email address",
-        default: "joshua.s.meza@gmail.com"
+        message: "what is your email address"
     },
 ];
 

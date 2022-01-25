@@ -23,7 +23,7 @@ function renderLicenseSection(license) {
         return `## License
         
         Copyright © ${license}. All rights reserved. 
-        ---
+    ---
         `;
     }
     return ""
@@ -74,8 +74,8 @@ function generateMarkdown(data) {
   ### Author
 
   created and built by <br>
-  [${data.GitHub}](https://github.com/${data.GitHub})
-
+  [${data.GitHub}](https://github.com/${data.GitHub}) <br>
+ ${data.email}
 
 `;
 }

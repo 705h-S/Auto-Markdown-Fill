@@ -38,6 +38,12 @@ const questions = [
 
     {
         type: "input",
+        name: "colab",
+        message: "What are the names of the Contributors?"
+    },
+
+    {
+        type: "input",
         name: "GitHub",
         message: "Enter your GitHub user name"
     },

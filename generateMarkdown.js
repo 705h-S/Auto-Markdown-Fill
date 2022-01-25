@@ -20,9 +20,12 @@ function renderLicenseLink(license) {
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
     if (license !== "NONE"){
-        return `## License
+        return `
+        ## License
         
-        Copyright © ${license}. All rights reserved. `;
+        Copyright © ${license}. All rights reserved. 
+        
+        ---`;
     }
     return ""
 }
@@ -30,6 +33,50 @@ function renderLicenseSection(license) {
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.title}
+  
+  ${renderLicenseBadge(data.license)}
+
+  ${data.description}
+
+  ---
+
+  ## TABLE OF CONTENTS
+
+  *[Installation](#Installation)
+
+  *[Usage](#usage)
+
+  *[Contributors](#Contributors)
+
+  ${renderLicenseLink(data.license)}
+
+  --- 
+
+  ## Installation
+
+  ${data.install}
+
+  --- 
+
+  ## usage 
+
+  ${data.usage}
+
+  ---
+
+  ## Contributors
+
+  ${data.colab}
+
+  ---
+
+  ${renderLicenseSection(data.license)}
+
+  ### Author
+
+  created and built by <br>
+  [${data.GitHub}](https://github.com/${data.GitHub})
+
 
 `;
 }
